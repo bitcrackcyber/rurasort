@@ -3,12 +3,12 @@
 """
   rurasort
 
-    author: Dimitri Fousekis (@rurapenthe0) and Telspace Systems
+    author: Dimitri Fousekis (@rurapenthe0)
 
     Licensed under the GNU General Public License Version 2 (GNU GPL v2),
         available at: http://www.gnu.org/licenses/gpl-2.0.txt
 
-    (C) 2015 Dimitri Fousekis (@rurapenthe0) and Telspace Systems @telspacesystems
+    (C) 2015 Dimitri Fousekis (@rurapenthe0)
 
     TODO:
     Please send a tweet to @rurapenthe0 with any suggestions.
