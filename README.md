@@ -1,6 +1,6 @@
 # rurasort
 RuraSort - A utility to sort and streamline wordlists.
-(c) 2015 Dimitri Fousekis & Telspace Systems www.telspace.co.za
+(c) 2015 Dimitri Fousekis, released under GNU license.
 
 This utility is used to help you streamline your worldlists by performing tasks on them. Note that output is made to STDOUT 
 and you have to pipe data to where you want it to go. Usually to a file with > myfile.txt 
