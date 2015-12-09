@@ -1,5 +1,6 @@
 # rurasort
 RuraSort - A utility to sort and streamline wordlists.
+
 Copyright (c) 2015 Dimitri Fousekis, released under GNU General Public License.
 
 A recent update was pushed at PasswordsCon15. 
