@@ -57,7 +57,7 @@ def Hashfilter(inputstring):
 	hash_present = False
 	hash_done = False
 	# We want the loop to end immediately if we find a match, otherwise its wasting resources. 
-	while (not hash_present) or (not hash_done):
+	while (not hash_present) and (not hash_done):
 	# MD5 Check (includes NTLM, MD4, MD2)
 		results = re.search(r'(^|[^a-fA-F0-9])[a-fA-F0-9]{32}([^a-fA-F0-9]|\$)',inputstring,re.M|re.I)
 		if results: hash_present = True
