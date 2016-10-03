@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 """
-  rurasort.py 1.8 
+  rurasort.py 1.9 
 
     author: Dimitri Fousekis (@rurapenthe0)
 
@@ -344,7 +344,7 @@ def main():
          	 	if args.dup_remove: words = Dup_Remove(words)
         	 	if args.no_sentence: words = DeSentenceify(words)
         	 	if args.lower: words = Lower(words)
-        	 	if args.no_numbers: word = No_Numbers(words)
+        	 	if args.no_numbers: words = No_Numbers(words)
 	 		if args.detab: words = Detab(words)
 	 		if args.maxtrim: words = Maxtrim(words)
 			if args.sense: words = Sense(words)
