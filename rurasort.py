@@ -336,6 +336,7 @@ def main():
 
    		 for words in open(args.infile):
                  	words=words.rstrip('\n')
+			words=words.rstrip('\r\n')
         	 	if args.maxlen: words = Maxlen(words)
 	 		if args.minlen: words = Minlen(words)
         	 	if args.digit_trim: words = Digit_Trim(words)
